@@ -1,0 +1,1 @@
+export default async (url = '', options) => fetch(`http://localhost:5000${url}`, options)
